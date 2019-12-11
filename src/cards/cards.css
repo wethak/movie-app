@@ -1,0 +1,14 @@
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 50px;
+  padding: 30px 0;
+}
+.grid-items {
+  display: flex;
+  justify-content: center;
+}
+#card-image {
+  min-height: 75%;
+}

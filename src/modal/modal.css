@@ -1,0 +1,15 @@
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.modal-img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 50px;
+}
+.modals {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}

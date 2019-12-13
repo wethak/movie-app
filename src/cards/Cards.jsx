@@ -3,7 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Card } from "react-bootstrap";
 import "./cards.css";
 import Addmovie from "../addmovie/Addmovie";
-export default class Cards extends Component {
+import WithLoading from '../HOC'
+ class Cards extends Component {
   constructor(props) {
     super(props);
 
@@ -31,3 +32,4 @@ export default class Cards extends Component {
     );
   }
 }
+export default WithLoading(Cards)
